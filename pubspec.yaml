@@ -1,34 +1,31 @@
-name: anime_fusion_app 
-description: An anime character fusion generator app.
-publish_to: 'none'
-version: 1.0.0+1
+name: Build Flutter APK
 
-environment:
-  sdk: '>=3.0.0 <4.0.0'
+on:
+  push:
+    branches:
+      - main
 
-dependencies:
-  flutter:
-    sdk: flutter
-  cupertino_icons: ^1.0.2
-  path_provider: ^2.0.15
-  share_plus: ^7.0.2
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
-  flutter_launcher_icons: ^0.13.1
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-flutter:
-  uses-material-design: true
-  assets:
-    - assets/images/
-    - assets/data/
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.13.9'
 
-flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/images/app_icon.png"
-  min_sdk_android: 21
-  adaptive_icon_background: "#FFFFFF"
-  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: app-release
+          path: build/app/outputs/flutter-apk/app-release.apk
