@@ -1,4 +1,4 @@
-name: anime_fusion_app
+name: anime_fusion_app 
 description: An anime character fusion generator app.
 publish_to: 'none'
 version: 1.0.0+1
