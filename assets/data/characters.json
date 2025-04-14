@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "name": "Naruto Uzumaki",
+    "series": "Naruto",
+    "imageUrl": null,
+    "abilities": ["Shadow Clone Jutsu", "Rasengan", "Sage Mode", "Nine-Tails Chakra Mode"],
+    "description": "The main protagonist of the Naruto series who dreams of becoming Hokage."
+  },
+  {
+    "id": "2",
+    "name": "Sasuke Uchiha",
+    "series": "Naruto",
+    "imageUrl": null,
+    "abilities": ["Sharingan", "Chidori", "Amaterasu", "Susanoo"],
+    "description": "A survivor of the Uchiha clan and Naruto's rival."
+  },
+  {
+    "id": "3",
+    "name": "Goku",
+    "series": "Dragon Ball",
+    "imageUrl": null,
+    "abilities": ["Kamehameha", "Super Saiyan", "Spirit Bomb", "Instant Transmission"],
+    "description": "A Saiyan warrior and the main protagonist of the Dragon Ball series."
+  },
+  {
+    "id": "4",
+    "name": "Vegeta",
+    "series": "Dragon Ball",
+    "imageUrl": null,
+    "abilities": ["Final Flash", "Super Saiyan", "Galick Gun", "Big Bang Attack"],
+    "description": "The prince of the Saiyans and Goku's rival."
+  },
+  {
+    "id": "5",
+    "name": "Luffy",
+    "series": "One Piece",
+    "imageUrl": null,
+    "abilities": ["Gomu Gomu no Mi", "Haki", "Gear Fourth", "Gear Fifth"],
+    "description": "Captain of the Straw Hat Pirates who ate the Gum-Gum Fruit."
+  },
+  {
+    "id": "6",
+    "name": "Zoro",
+    "series": "One Piece",
+    "imageUrl": null,
+    "abilities": ["Three Sword Style", "Haki", "Asura", "Flying Dragon Blaze"],
+    "description": "The swordsman of the Straw Hat Pirates who uses three swords."
+  },
+  {
+    "id": "7",
+    "name": "Ichigo Kurosaki",
+    "series": "Bleach",
+    "imageUrl": null,
+    "abilities": ["Zangetsu", "Bankai", "Hollow Form", "Getsuga Tensho"],
+    "description": "A human with Shinigami powers who protects the living world from Hollows."
+  },
+  {
+    "id": "8",
+    "name": "Rukia Kuchiki",
+    "series": "Bleach",
+    "imageUrl": null,
+    "abilities": ["Sode no Shirayuki", "Kido", "Bankai", "Some no mai, Tsukishiro"],
+    "description": "A Shinigami who transferred her powers to Ichigo."
+  },
+  {
+    "id": "9",
+    "name": "Edward Elric",
+    "series": "Fullmetal Alchemist",
+    "imageUrl": null,
+    "abilities": ["Alchemy", "Transmutation", "Martial Arts", "Automail Arm"],
+    "description": "A young alchemist who lost his arm and leg in a failed human transmutation."
+  },
+  {
+    "id": "10",
+    "name": "Alphonse Elric",
+    "series": "Fullmetal Alchemist",
+    "imageUrl": null,
+    "abilities": ["Alchemy", "Soul Binding", "Martial Arts", "Armored Body"],
+    "description": "Edward's younger brother whose soul is bound to a suit of armor."
+  },
+  {
+    "id": "11",
+    "name": "Eren Yeager",
+    "series": "Attack on Titan",
+    "imageUrl": null,
+    "abilities": ["Titan Shifting", "Hardening", "Coordinate", "Attack Titan"],
+    "description": "A young man who can transform into a Titan and seeks to eliminate all Titans."
+  },
+  {
+    "id": "12",
+    "name": "Mikasa Ackerman",
+    "series": "Attack on Titan",
+    "imageUrl": null,
+    "abilities": ["Ackerman Strength", "ODM Gear Mastery", "Combat Skills", "Swordsmanship"],
+    "description": "Eren's adoptive sister and one of the most skilled soldiers."
+  },
+  {
+    "id": "13",
+    "name": "Saitama",
+    "series": "One Punch Man",
+    "imageUrl": null,
+    "abilities": ["Superhuman Strength", "Superhuman Speed", "Invulnerability", "Serious Punch"],
+    "description": "A hero who can defeat any opponent with a single punch."
+  },
+  {
+    "id": "14",
+    "name": "Genos",
+    "series": "One Punch Man",
+    "imageUrl": null,
+    "abilities": ["Cyborg Body", "Incineration Cannons", "Machine Gun Blows", "Boosters"],
+    "description": "A cyborg and Saitama's disciple who seeks revenge against the mad cyborg."
+  },
+  {
+    "id": "15",
+    "name": "Izuku Midoriya",
+    "series": "My Hero Academia",
+    "imageUrl": null,
+    "abilities": ["One For All", "Full Cowl", "Shoot Style", "Delaware Smash"],
+    "description": "A boy born without a Quirk who inherits One For All from All Might."
+  },
+  {
+    "id": "16",
+    "name": "Katsuki Bakugo",
+    "series": "My Hero Academia",
+    "imageUrl": null,
+    "abilities": ["Explosion", "Howitzer Impact", "AP Shot", "Stun Grenade"],
+    "description": "Izuku's childhood friend and rival with an explosive Quirk."
+  },
+  {
+    "id": "17",
+    "name": "Light Yagami",
+    "series": "Death Note",
+    "imageUrl": null,
+    "abilities": ["Death Note", "Intelligence", "Strategic Planning", "Manipulation"],
+    "description": "A high school student who discovers a supernatural notebook that kills anyone whose name is written in it."
+  },
+  {
+    "id": "18",
+    "name": "L Lawliet",
+    "series": "Death Note",
+    "imageUrl": null,
+    "abilities": ["Deductive Reasoning", "Intelligence", "Martial Arts", "Investigation"],
+    "description": "A mysterious detective who attempts to track down and capture Kira."
+  },
+  {
+    "id": "19",
+    "name": "Spike Spiegel",
+    "series": "Cowboy Bebop",
+    "imageUrl": null,
+    "abilities": ["Jeet Kune Do", "Marksmanship", "Piloting", "Improvisation"],
+    "description": "A former hitman and bounty hunter traveling through space on the Bebop."
+  },
+  {
+    "id": "20",
+    "name": "Faye Valentine",
+    "series": "Cowboy Bebop",
+    "imageUrl": null,
+    "abilities": ["Marksmanship", "Piloting", "Gambling", "Deception"],
+    "description": "A woman with amnesia who joins the crew of the Bebop."
+  }
+]
